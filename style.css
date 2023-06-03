@@ -1,0 +1,35 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #80ece7;
+    min-height: 90vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    text-align: center;
+    padding: 40px 30px;
+    box-shadow: 0 5px 10px;
+}
+
+form{
+    color:black;
+    font-size: 15px;
+    font-weight: 0;
+    margin-bottom: 50px ;
+}
+
+form label{
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    
+    <title>Cajero Automático</title>
+</head>
+<body>
+
+    <form action="">
+    <h1>Login</h1>
+    <label for="">Usuario</label>
+    <input type="text" name="" id="u">
+    <label for="">Password</label>
+    <input type="password" name="" id="c">
+    <input type="button" value="Ingresar" onclick="login(this.form)">
+
+</form>
+
+<script >
+function login(form){
+    if(form.u.value=="danny"){
+        if(form.c.value=="1010"){
+        location="principal.html";
+    } else{
+        alert("error de password");
+    } 
+}
+      else{
+        alert("error de usuario");
+      }
+    }
+     
+
+</script>
+
+</body>
+</html>
